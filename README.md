@@ -38,7 +38,7 @@ Even with operating envelopes and uncertainty gating, robustness must still be e
 To be completed.
 
 ## Setup Instructions
-###Create and activate a Python environment:
+### Create and activate a Python environment:
 ```text
 python -m venv venv
 source venv/bin/activate      # Mac/Linux
