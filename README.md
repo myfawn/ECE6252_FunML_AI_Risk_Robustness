@@ -28,7 +28,6 @@ Robustness does not always need to be explicitly communicated to users, as syste
 ### Files
 
 - `Experiment_A.ipynb`: Main notebook for Viewpoint A experiments.
-- `resnet_model.pth`: Saved trained ResNet-18 model weights for Experiment A.
 
 ## Viewpoint B
 
@@ -39,18 +38,19 @@ Even with operating envelopes and uncertainty gating, robustness must still be e
 To be completed.
 
 ## Setup Instructions
-Create and activate a Python environment:
-
+###Create and activate a Python environment:
+```text
 python -m venv venv
 source venv/bin/activate      # Mac/Linux
 venv\Scripts\activate         # Windows
+pip install -r requirements.txt    # Install dependencies
+```
 
 ## Repository Structure
 
 ```text
-.
 ├── Experiment_A.ipynb
 ├── Experiment_B.ipynb
-├── resnet_model.pth
 ├── README.md
 └── requirements.txt
+```
